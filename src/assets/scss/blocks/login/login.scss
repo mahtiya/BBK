@@ -1,0 +1,132 @@
+.login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100svh;
+
+    .login_img {
+        width: 50%;
+        height: 100svh;
+        object-fit: cover;
+    }
+
+    .login_bg {
+        width: 462px;
+        background: $white;
+        border-radius: 16px;
+        box-shadow: 0px 2px 4px 0px #11111129;
+        padding: 56px 46px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .logo_title {
+        color: $black;
+        font-family: $golos;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 150%;
+    }
+
+    .login_form {
+        width: 100%;
+    }
+
+    .login_inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .login_label_input {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .login_label {
+        color: #020105;
+        font-family: $golos;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .login_input {
+        height: 40px;
+        color: #020105;
+        font-family: $golos;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        box-sizing: border-box;
+        border: 1px solid rgb(233, 236, 239);
+        border-radius: 12px;
+        background: $white;
+        padding-left: 16px;
+    }
+
+
+    .login_input_eyes {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login_eyes {
+        position: absolute;
+        right: 16px;
+        top: 8px;
+        z-index: 100;
+        font-size: 27px;
+        color: $black;
+        cursor: pointer;
+    }
+
+
+    .login_btn {
+        border-radius: 14px;
+        background-color: $orange;
+        width: 100%;
+        height: 40px;
+        color: $light_black;
+        font-family: Golos;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        margin-top: 28px;
+        margin-bottom: 23px;
+    }
+
+    .login_text_error {
+        font-family: #000000;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        color: $red;
+    }
+
+    .login_error {
+        color: $red;
+        transition: 0.5s;
+
+    }
+
+    .login_input_err {
+        color: $red;
+        border: 1px solid $red;
+        transition: 0.5s;
+
+    }
+
+
+    .login_eyes_err {
+        color: $red;
+        transition: 0.5s;
+    }
+}

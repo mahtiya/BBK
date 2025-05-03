@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: #FAFAFA;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: 0px;
+}
+
+input {
+    outline: none;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    padding-right: 24px;
+    width: 100%;
+}
+
+
+
+.routes_page {
+    width: 100%;
+}

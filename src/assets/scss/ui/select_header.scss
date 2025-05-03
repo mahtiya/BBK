@@ -1,0 +1,18 @@
+.select_header {
+    background: $white;
+    padding: 4px;
+    box-shadow: 1px 0px 32px -4px #11111114;
+    border-radius: 40px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    position: relative;
+
+
+    .select_header_arrow {
+        color: $gray;
+        font-size: 20px;
+    }
+}
