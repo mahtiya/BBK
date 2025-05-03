@@ -6,7 +6,7 @@ export default function index() {
         <>
             <Header title={"Администраторы"} />
             <Search>
-                <input type="text" />
+                <input className="input" type="text" />
                 <button>Filter</button>
             </Search>
         </>
