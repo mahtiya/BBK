@@ -1,4 +1,4 @@
-import ButtonOrange from "../../ui/ButtonOrange";
+import { ButtonOrange } from "../../ui/Button";
 import AddIcons from "../../assets/icons/add_icons.svg"
 export default function Search({ children }) {
     return (

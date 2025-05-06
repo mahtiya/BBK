@@ -1,0 +1,24 @@
+.foto_ui_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 17px;
+    }
+
+    h4 {
+        color: $blue;
+        font-family: $golos;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+    }
+
+}
